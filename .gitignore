@@ -1,0 +1,69 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+backend/venv/
+backend/env/
+
+# TensorFlow Models (large files)
+backend/models/*.h5
+backend/models/*.keras
+backend/models/*.pb
+
+# Uploaded files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Dataset (too large for GitHub)
+dataset/
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Node.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
